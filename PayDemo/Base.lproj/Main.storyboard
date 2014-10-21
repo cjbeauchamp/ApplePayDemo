@@ -15,6 +15,17 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2g-rk-Q83">
+                                <rect key="frame" x="16" y="28" width="329" height="148"/>
+                                <state key="normal" image="applepay">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkOut:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FhZ-Fy-iVP"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -22,4 +33,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="applepay" width="194" height="64"/>
+    </resources>
 </document>
